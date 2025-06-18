@@ -1,0 +1,107 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 30px;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #e25e5e;
+    }
+
+    .option {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 15px;
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .badge {
+      background: #f77;
+      color: white;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 10px;
+    }
+
+    .most-popular {
+      border: 2px solid #e25e5e;
+    }
+
+    .most-popular::before {
+      content: "MOST POPULAR";
+      position: absolute;
+      top: -10px;
+      right: -2px;
+      background: #e25e5e;
+      color: white;
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 3px 3px 0 0;
+    }
+
+    .price {
+      float: right;
+      text-align: right;
+    }
+
+    .price del {
+      color: gray;
+      font-size: 12px;
+    }
+
+    .unit-options {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .unit-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    select {
+      padding: 4px;
+    }
+
+    .summary {
+      text-align: center;
+      margin: 20px 0;
+      color: #e25e5e;
+    }
+
+    .total {
+      font-weight: bold;
+    }
+
+    .btn {
+      background: #e25e5e;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #cc4c4c;
+    }
